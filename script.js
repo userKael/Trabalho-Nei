@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
     $('.hamburguer').click(function(){
         $(this).toggleClass('active');
@@ -7,19 +6,6 @@ $(document).ready(function(){
         $(".menu").toggleClass('active');
     });
 })
-
-
-/* 
-
-function toggleMenu(){
-    const menu = document.getElementsByClassName("menu")[0]
-    const hamburguer = document.getElementsByClassName("hamburguer")[0]
-    hamburguer.classList.toggle('active')
-    menu.classList.toggle('active')
-}
-
-*/
-
 
 
 function getScrollTopByHref(element){
@@ -49,4 +35,6 @@ function scrollToPosition(to){
 
     });
 }
+
+
 

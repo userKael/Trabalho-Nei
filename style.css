@@ -547,7 +547,8 @@ padding: 5rem 5rem 5rem 5rem;
 .box-area-text{
     margin-bottom: 2rem;
     display: flex;
-    text-align: center;
+    text-align: start;
+    padding-left: 1rem;
 }
 
 #footer .box-area-text #name{
@@ -630,7 +631,7 @@ padding: 5rem 5rem 5rem 5rem;
     background-color: black;
     border: 2px solid var(--purple-color);
     width: 30rem;
-    height: 6rem;
+    height: 7rem;
     border-radius: 20px;
     font-size: 2rem;
     color: white;
@@ -1133,7 +1134,7 @@ width: 103rem;
 
     html,
     body{
-    height: 140vh;
+    height: 150vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 50rem;

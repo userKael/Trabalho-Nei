@@ -23,8 +23,8 @@
       <div class="wrapper">
         <div class="navbar">
           <div><img class="logo" src="./Assets/LOGO_DIGITECH.png" alt=""></div>
-          <div class="hamburguer active"></div>
-          <ul class="menu ">           
+          <div class="hamburguer"></div>
+          <ul class="menu">           
             <li><a href="#visual-identity">Identidade Visual</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#proposal">Orçamento</a></li>
@@ -284,31 +284,29 @@
               </div>
               <hr></hr>
           </div>
+       </form>
           <div class="text-area">
-              <form action="GET" action="">
+            <form action="https://formsubmit.co/iagogoddigital@hotmail.com" method="POST">
                   <h2>Nome</h2>
                   <div class="box-area-text ">
-                      <textarea name="" id="name" ></textarea>
+                    <input class="box-area-text" id="name" type="text" name="name" required>
                   </div>
                   <h2>E-mail</h2>
                   <div class="box-area-text ">
-                      <textarea name="" id="e-mail" ></textarea>
+                    <input class="box-area-text" id="e-mail" type="email" name="email" required>
                   </div>
                   <h2>Mensagem</h2>
                   <div class="box-area-text ">
-                      <textarea name="" id="message"></textarea>
+                    <input class="box-area-text" id="message" type="text" name="message" required>
                   </div>
-                  <div>
-                      <button id="button-send"> Enviar </button>
-                  </div>
+                  <p id="message_glad"></p>
+                  <button id="button-send" type="submit"> Enviar </button>
               </form>
               </div>
           <div>
               <img src="./assets/LOGO_DIGITECH.png" class="logo" alt="Logo">
               <img src="" alt="">
           </div>
-
-        
       </div>
     </footer>
 
