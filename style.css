@@ -544,12 +544,17 @@ padding: 5rem 5rem 5rem 5rem;
 
 }
 
+#footer .text-area h2{
+    padding-left: 1rem;
+}
+
 .box-area-text{
     margin-bottom: 2rem;
     display: flex;
     text-align: start;
     padding-left: 1rem;
 }
+
 
 #footer .box-area-text #name{
     width: 100%;
@@ -943,7 +948,7 @@ width: 103rem;
     html,
     body{
     width: 100%;
-    height: 150vh;
+    height: 145vh;
     background-image: url('./Assets/PLANO_DE_FUNDO_COMPUTADOR.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
