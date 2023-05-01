@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neyzandro</title>
+    <title>Site</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -286,7 +286,7 @@
           </div>
        </form>
           <div class="text-area">
-            <form action="https://formsubmit.co/iagogoddigital@hotmail.com" method="POST">
+            <form action="https://formsubmit.co/iagogoddigital@hotmail.com" method="GET">
                   <h2>Nome</h2>
                   <div class="box-area-text ">
                     <input class="box-area-text" id="name" type="text" name="name" required>
@@ -298,9 +298,16 @@
                   <h2>Mensagem</h2>
                   <div class="box-area-text ">
                     <input class="box-area-text" id="message" type="text" name="message" required>
+
                   </div>
-                  <p id="message_glad"></p>
-                  <button id="button-send" type="submit"> Enviar </button>
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_next" value="">
+                  <button id="button-send" type="submit" > 
+                    Enviar 
+                  </button>
+                  <a href="http://127.0.0.1:5500/thank-you-message.html" target="_blank">Email us</a>
+
+
               </form>
               </div>
           <div>
