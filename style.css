@@ -409,6 +409,11 @@ padding: 5rem 5rem 5rem 5rem;
 #feedback .text-feedback-box .text-feedback{
     width: min(140rem, 100%);
     margin: auto;
+    display: none;
+}
+
+#feedback .text-feedback-box .text-feedback.active{
+    display: block;
 }
 
 #feedback .text-feedback-box .text-feedback p{
@@ -427,7 +432,7 @@ padding: 5rem 5rem 5rem 5rem;
     width: min(140rem, 100%);
     display: flex;
     justify-content: end;
-    gap: 0.3rem;
+    gap: 0.5rem;
 }
 
 #feedback .change-feedback .circles{
@@ -437,7 +442,8 @@ padding: 5rem 5rem 5rem 5rem;
     border: solid 1px black;
 }
 
-.circles:hover{
+.circles.active{
+    transition: 0.3s;
     background-color: #ffffff;
 }
 

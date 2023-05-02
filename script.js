@@ -37,4 +37,23 @@ function scrollToPosition(to){
 }
 
 
+const buttons = document.querySelectorAll('.change-feedback div');
+const messages = document.querySelectorAll('.text-feedback');
+
+buttons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    // Remove a classe "active" de todos os botões e mensagens
+    buttons.forEach((button) => {
+      button.classList.remove('active');
+    });
+    messages.forEach((message) => {
+      message.classList.remove('active');
+    });
+    
+    // Adiciona a classe "active" ao botão clicado e à mensagem correspondente
+    button.classList.add('active');
+    messages[index].classList.add('active');
+  });
+});
+
 
