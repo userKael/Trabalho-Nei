@@ -11,7 +11,17 @@
     color: white;
     font-size:62.5%; /* 1rem = 10px */
     --purple-color: #6842e3;
+
+    
 }
+
+body::-webkit-scrollbar-track{
+    background:transparent; 
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--purple-color);    /* color of the scroll thumb */}
 
 html,
 body{
@@ -23,7 +33,10 @@ body{
     background-position: center right;
     background-repeat: no-repeat;
     background-size: 120rem;
+ 
 }
+
+
 
 .wrapper{
     width: min(144rem, 100%);
@@ -301,7 +314,7 @@ font-size: 1.8rem;
 
 #brand-building .brand-building-texts div{
     width: min(46rem,100%);
-    line-height: 3rem;
+    line-height: 3.3rem;
     height: 20rem;
 }
 
@@ -343,7 +356,7 @@ font-size: 1.8rem;
 
 #visual-identity .visual-identity-texts div{
     width: min(35rem,100%);
-    line-height: 3rem;
+    line-height: 3.3rem;
     
 }
 
@@ -410,6 +423,7 @@ padding: 5rem 5rem 5rem 5rem;
     width: min(140rem, 100%);
     margin: auto;
     display: none;
+    
 }
 
 #feedback .text-feedback-box .text-feedback.active{
@@ -418,7 +432,7 @@ padding: 5rem 5rem 5rem 5rem;
 
 #feedback .text-feedback-box .text-feedback p{
     font-size: 2.5rem;
-    line-height: 3rem;
+    line-height: 3.3rem;
 }
 
 #feedback .text-feedback-box .text-feedback h6{
@@ -480,7 +494,7 @@ padding: 5rem 5rem 5rem 5rem;
 
 #proposal .proposal-text p{
     font-size: 2.1rem;
-    line-height: 3rem;
+    line-height: 3.3rem;
     margin-bottom: 2rem;
 }
 
@@ -937,6 +951,7 @@ width: 103rem;
         width: 40rem;
         
     }
+
 
     /*=======================FOOTER=======================*/
 
