@@ -581,7 +581,7 @@ padding: 5rem 5rem 5rem 5rem;
     height: 5rem;
 }
 
-#footer .box-area-text #e-mail{
+#footer .box-area-text #email{
     width: 100%;
     height: 5rem;
 }
@@ -629,6 +629,7 @@ padding: 5rem 5rem 5rem 5rem;
 
 .wrapper{
     width: min(100rem,100%);
+  
 }
 
 /*=======================PORTFOLIO=======================*/
